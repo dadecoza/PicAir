@@ -103,7 +103,6 @@ public class PicAir {
 	PicAir() {
 
 		System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
-
 		Mat frame = new Mat();
 		// 0; default video device id
 		VideoCapture camera = new VideoCapture(0);
